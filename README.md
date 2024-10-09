@@ -5,3 +5,7 @@
 - [HTML](https://github.com/topics/html)
 - [CSS](https://github.com/topics/css)
 - [JS](https://github.com/topics/javascript)
+
+## Imprescindibles
+- [HTML Reference](https://htmlreference.io/)
+- [HTML Cheatsheet](https://htmlcheatsheet.com/)
