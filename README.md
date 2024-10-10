@@ -1,6 +1,7 @@
 # Guía de estudio Frontend
 
 ## [Guía Completa de HTML y CSS](docs/README.md)
+## [Guía en desarrollo](https://javilazkano.com/html-css-guide/)
 
 ## Topics en GitHub:
 - [Frontend](https://github.com/topics/frontend)
