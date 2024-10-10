@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/code-window.css" rel="stylesheet">
+    <link href="./styles/html-css.css" rel="stylesheet">
+    <title>Guía de estudio HTML y CSS</title>
+</head>
+<body>    
+    <!-- Header -->
+    <header>        
+        <div>
+            <img src="./assets/img/logo_w.png" width="90px" id="logo">
+            <div class="mask"></div>
+        </div>
+    </header>
+    <div class="main-body">
+        <!-- Main Section -->
+                <div>
+                    <h2 class="title">Guía de estudio <strong>HTML y CSS</strong></h2>
+                </div>
+                <div class="mask"></div>
+                <div>
+                    <section>
+                        <h3 class="title">Esta documentación está diseñada para ayudar a principiantes a aprender HTML y CSS desde cero.</h3>
+                        <div>
+                            <h4 class="cap-title">Introducción a HTML y CSS</h4>
+                            <p><strong>HTML</strong> (HyperText Markup Language) y <strong>CSS</strong> (Cascading Style Sheets) son los dos pilares fundamentales para la creación de páginas web.</p>
+                            <p>Mientras que <strong>HTML</strong> se encarga de la estructura y el contenido de la página, <strong>CSS</strong> define su apariencia y diseño.</p>
+                            <p>Comprender cómo funcionan juntos es esencial para el desarrollo de proyectos web efectivos y atractivos.</p>
+                        </div>
+                        <div>
+                            <h4 class="cap-title">Estructura básica de un documento HTML</h4>
+                            <p class="editor-content">Cada documento HTML se organiza en una estructura específica con la declaración <span class="color-2">&lt;!DOCTYPE html&gt;</span> en la parte superior, seguida de las etiquetas
+                                <span class="color-2">&lt;html&gt;</span>, <span class="color-2">&lt;head&gt;</span> y <span class="color-2">&lt;body&gt;</span>.</p>
+                            <p class="editor-content">Dentro de <span class="color-2">&lt;head&gt;</span>, se definen metadatos como el título (<span class="color-2">&lt;title&gt;</span>) y enlaces a hojas de estilo o scripts.</p>
+                            <p class="editor-content">El elemento <span class="color-2">&lt;body&gt;</span>, contiene todo el contenido visual de la página, como texto, imágenes, enlaces,etc...</p>
+                        </div>                        
+                        <!--      CODE WINDOW             -->
+                        <div class="code-editor">
+                            <div class="code-header">
+                                <span class="code-title">HTML</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon">
+                                    <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                                    <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M6 6L18 18"></path>
+                                        <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M18 6L6 18"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="editor-content">
+                                <code class="code">
+                                    <p><span class="color-0">&lt;!DOCTYPE <span class="color-2"> html&gt;</span></span></p>
+                                    <p class="property">
+                                        <span class="color-0">&lt;html&gt;</span><span class="color-2">lang</span><span class="color-4"> = </span><span class="color-3">"es"</span>
+                                    </p>
+                                    <p class="property">
+                                        <span class="color-0">&lt;head&gt;</span>                                            
+                                    </p>
+                                    <p class="property">
+                                        <p class="subproperty">
+                                            <span class="color-0"> &lt;title&gt;<span class="color-4">Mi Primera Página Web</span>&lt;/title&gt;</span>
+                                        </p>
+                                    </p>
+                                    <p class="property">
+                                        <span class="color-0">&lt;/head&gt;</span>
+                                    </p>
+                                    <p class="property">
+                                        <span class="color-0">&lt;body&gt;</span>
+                                    </p>
+                                    <p class="property">
+                                        <p class="subproperty">
+                                            <span class="color-0">&lt;h1&gt;<span class="color-4">Hola, Mundo!</span><span class="color-0">&lt;/h1&gt;</span>
+                                        </p>
+                                        <p class="subproperty">                                                
+                                            <span class="color-0">&lt;p&gt;<span class="color-4">Este es un párrafo de ejemplo.</span>&lt;/p&gt;</span>
+                                        </p>
+                                    </p>
+                                    <p class="property">
+                                        <span class="color-0">&lt;/body&gt;</span>
+                                    </p>
+                                    <span class="color-0">&lt;/html&gt;</span>
+                                    <p class="property">
+                                    </p>
+                                </code>
+                            </div>
+                        </div>
+                        <!--      CODE WINDOW             -->
+                        <div>
+                            <h4 class="cap-title">¿Qué es CSS?</h4>
+                            <p class="editor-content"><strong>CSS</strong> es el lenguaje de estilos utilizado para describir la presentación de un documento <strong>HTML</strong>.</p>
+                            <p class="editor-content">Permite definir colores, fuentes, espaciados y posicionamiento de los elementos en una página, mejorando la experiencia visual y la usabilidad.</p>
+                        </div> 
+                        <div>
+                            <h4 class="cap-title">Cómo CSS Interactúa con HTML</h4>
+                            <p class="editor-content"><strong>CSS</strong> se integra con <strong>HTML</strong> de tres maneras principales:</p>
+                            <ul>
+                                <li class="editor-content"><strong>Estilos en línea.</strong> Se aplican directamente en la etiqueta HTML mediante el atributo <span class="color-2">style</span>.</li>
+                                <li class="editor-content"><strong>Estilos internos.</strong> Se incluyen en la sección <span class="color-2">&lt;head&gt;</span> del <strong>HTML</strong> utilizando la etiqueta <span class="color-2">&lt;style&gt;</span>.</li>
+                                <li class="editor-content"><strong>Estilos externos.</strong> Se guardan en un archivo separado <span class="color-3">.css</span> y se enlazan al <strong>HTML</strong> con la etiqueta <span class="color-2">&lt;link&gt;</span>.</li>
+                            </ul>
+                            <p class="editor-content">Cada método tiene sus usos específicos, pero el uso de hojas de estilo externas es el más
+                                recomendado por la facilidad de mantenimiento y reutilización.</p>
+                        </div> 
+ 
+                    </section>
+                </div>                
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-nav">
+            <a href="#noprev" class="prev" id="noprev">
+                <p>Anterior</p>
+            </a>            
+            <a href="#" class="next">
+                <p>Siguiente</p>
+            </a>            
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </footer>
+</body>
+</html>
+
