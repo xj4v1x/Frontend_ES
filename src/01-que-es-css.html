@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/html-css.css" rel="stylesheet">
+    <link href="./styles/code-window.css" rel="stylesheet">
+    <title>Guía de estudio HTML y CSS</title>
+</head>
+<body>    
+    <!-- Header -->
+    <header>        
+        <div>
+            <img src="./assets/img/logo_w.png" width="90px" id="logo">
+            <div class="mask"></div>
+        </div>
+    </header>
+    <div class="main-body">
+        <!-- Main Section -->
+                <div>
+                    <h2 class="title">¿Qué es <strong>CSS</strong>?</h2>
+                </div>
+                <div class="mask"></div>
+                <div>
+                    <section>
+                        <div>
+                            <h4 class="cap-title">1.2 ¿Qué es CSS?</h4>
+                            <p><strong>CSS</strong> (Cascading Style Sheets) es un lenguaje de estilos que se utiliza para describir la presentación de un documento <strong>HTML</strong>.</p>
+                            <p>Permite aplicar estilos a los elementos <strong>HTML</strong>, controlando su apariencia visual, como colores, fuentes, tamaños y disposición.</p>
+                            <br>
+                            <p>Ejemplo de <strong>CSS</strong> Básico:</p>
+                            <!--      CODE WINDOW             -->
+                            <div class="code-editor">
+                                <div class="code-header">
+                                    <span class="code-title">HTML</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon">
+                                        <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                                        <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M6 6L18 18"></path>
+                                            <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M18 6L6 18"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="editor-content">
+                                    <code class="code">
+                                        <p><span class="color-0">body { </span></p>
+                                        <p class="property">
+                                            <span class="color-2">background-color:</span><span class="color-3">#f0f0f0;</span><span class="color-1"> /* Color de fondo */</span>
+                                            <br>
+                                            <span class="color-2">font-family:</span><span class="color-3"> Arial, sans-serif;</span><span class="color-1"> /* Tipo de fuente */</span>
+                                        </p>
+                                        <p><span class="color-0">}</span></p>
+                                        <p><span class="color-0">h1 {</span></p>                                        
+                                            <p class="property">
+                                                <span class="color-2">color:</span><span class="color-3"> #333333;</span><span class="color-1"> /* Color del encabezado */</span>
+                                                <p><span class="color-0">}</span></p>
+                                            </p>
+                                            <p><span class="color-0">p {</span></p>                                        
+                                                <p class="property">
+                                                    <span class="color-2">font-size:</span><span class="color-3"> 16px;</span><span class="color-1"> /* Tamaño de la fuente */</span>
+                                                    <span class="color-2">color:</span><span class="color-3"> #666666;</span><span class="color-1"> /* Color del texto */</span>                                           
+                                                    <p><span class="color-0">}</span></p>
+                                    </code>
+                                </div>
+                            </div>
+                            <!--      CODE WINDOW             -->
+                        </div>
+                        <div>
+                            <h4 class="cap-title">1.2.1 Historia y Evolución de CSS</h4>
+                            <p><strong>CSS</strong> fue desarrollado por <strong>Håkon Wium Lie</strong> y se introdujo por primera vez en 1996.</p>
+                            <p>Desde entonces, ha pasado por varias versiones que han ampliado sus capacidades.</p>
+                            <br>
+                            <ul>
+                                <li><strong>CSS1 </strong>: La primera versión que permitió a los diseñadores controlar el diseño de las páginas web.</li>
+                                <li><strong>CSS2 </strong>: Introdujo nuevos módulos y características, como posicionamiento y media queries.</li>
+                                <li><strong>CSS3 </strong>: La versión más reciente, que añade muchas funcionalidades nuevas, como animaciones, transiciones, y el modelo de cajas flexible.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="cap-title">1.2.2 Cómo CSS Interactúa con HTML</h4>
+                            <p><strong>CSS</strong> se puede integrar con <strong>HTML</strong> de varias maneras :</p>                            
+                            <br>
+                            <ul>
+                                <li class="editor-content"><strong>Estilos en línea </strong>: Se aplican directamente en la etiqueta <strong>HTML</strong> mediante el atributo <span class="color-0">&lt;style&gt;</span>.</li>
+                                <li class="editor-content"><strong>Estilos internos </strong>: Se incluyen en la sección <span class="color-0">&lt;head&gt;</span> del <strong>HTML</strong> utilizando la etiqueta <span class="color-0">&lt;style&gt;</span>.</li>
+                                <li class="editor-content"><strong>Estilos externos </strong>: Se guardan en un archivo separado con la extensión <span class="color-0">.css</span> y se enlazan al <strong>HTML </strong> con la etiqueta <span class="color-0">&lt;link&gt;</span>.</li>                                
+                            </ul>
+                        </div>
+                        <br>
+                        <p>Ejemplo de Enlace a una Hoja de Estilo Externa:</p>
+                        <!--      CODE WINDOW             -->
+                        <div class="code-editor">
+                            <div class="code-header">
+                                <span class="code-title">HTML</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon">
+                                    <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                                    <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M6 6L18 18"></path>
+                                        <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M18 6L6 18"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="editor-content">
+                                <code class="code">
+                                    <p>
+                                        <span class="color-0">
+                                            <span class="color-0">&lt;link</span> <span class="color-3">rel</span><span class="color-4"> =</span>
+                                            <span class="color-1">"stylesheet"</span> <span class="color-3">href</span><span class="color-4"> =</span><span class="color-1">"estilos.css"</span><span class="color-0">&gt;</span>
+                                        </span>
+                                    </p>
+                                    
+                                </code>
+                            </div>
+                        </div>
+                        <!--      CODE WINDOW             -->
+                    </section>
+                </div>                
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-nav">
+            <a href="./index.html" class="prev">
+                <p>Inicio</p>
+            </a>             
+            <a href="./02-fundamentos-html.html" class="next">
+                <p>Fundamentos de HTML</p>
+            </a>            
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </footer>
+</body>
+</html>
+
