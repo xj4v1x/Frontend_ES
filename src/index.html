@@ -19,112 +19,135 @@
         <!-- Main Section -->
         <div>
             <h1 class="title">Guía de estudio <strong>HTML y CSS</strong></h1>
-            <div class="line"></div>
-            <h2 class="title">Esta documentación está diseñada para ayudar a principiantes a aprender <strong>HTML</strong> y <strong>CSS</strong> desde cero.</h2>
+            <h2 class="title">Esta documentación está diseñada para ayudar a principiantes a aprender <strong>HTML</strong> y <strong>CSS</strong> desde cero.</h2>            
         </div>                
-        <section>
-            <div>
-                <h3 class="title">1. Introducción a HTML y CSS</h3>
-                <p><strong>HTML</strong> <i>(HyperText Markup Language)</i> y <strong>CSS</strong> <i>(Cascading Style Sheets)</i> son los dos pilares fundamentales para la creación de páginas web.</p>
-                <p>Comprender cómo funcionan y se relacionan es esencial para cualquier desarrollador web, 
-                    ya que son las herramientas básicas para construir una presencia en línea efectiva.</p>
-            </div>
-            <div>
-                <h3 class="title">1.1 ¿Qué es HTML?</h3>
-                <p><strong>HTML</strong> es el lenguaje de marcado utilizado para crear la estructura
-                    de las páginas web. Se utiliza para organizar el contenido, haciendo que sea
-                    visualmente comprensible tanto para los navegadores como para los usuarios.</p>
-                <h4 class="title-level2">Estructura :</h4>
-                <p class="indent-level1"><strong>HTML</strong> organiza el contenido en diferentes secciones,
-                    usando etiquetas que definen cómo debe presentarse el contenido.</p>
-                <h4 class="title-level2">Etiquetas :</h4>
-                <p class="indent-level1">Se compone de una serie de etiquetas (tags) que encierran contenido, por ejemplo,
-                    <span class="color-2">&lt;h1&gt;</span>, para encabezados, <span class="color-2">&lt;p&gt;</span>, para párrafos, y <span class="color-2">&lt;a&gt;</span>, para enlaces.</p>
-                <h4 class="title-level2">Interacción :</h4>
-                <p class="indent-level1"><strong>HTML</strong> permite incluir otros recursos como imágenes, videos y formularios, facilitando la interacción del usuario con la página.</p>
-                <p class="pre-ejemplo">Ejemplo de <strong>HTML</strong> Básico:</p>
-                <!--      CODE WINDOW             -->
-                <div class="code-editor">
-                    <div class="code-header">
-                        <span class="code-title">HTML</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon">
-                            <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
-                            <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
-                            <g id="SVGRepo_iconCarrier">
-                                <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M6 6L18 18"></path>
-                                <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M18 6L6 18"></path>
-                            </g>
-                        </svg>
-                    </div>
-                    <div class="editor-content">
-                        <code class="code">
-                            <p><span class="color-0">&lt;!DOCTYPE <span class="color-2"> html&gt;</span></span></p>
-                            <p class="property">
-                                <span class="color-0">&lt;html&gt;</span><span class="color-2">lang</span><span class="color-4"> = </span><span class="color-3">"es"</span>
-                            </p>
-                            <p class="property">
-                                <span class="color-0">&lt;head&gt;</span>                                            
-                            </p>
-                            <p class="property">
-                                <p class="subproperty">
-                                    <span class="color-0"> &lt;title&gt;<span class="color-4">Mi Primera Página Web</span>&lt;/title&gt;</span>
-                                </p>
-                            </p>
-                            <p class="property">
-                                <span class="color-0">&lt;/head&gt;</span>
-                            </p>
-                            <p class="property">
-                                <span class="color-0">&lt;body&gt;</span>
-                            </p>
-                            <p class="property">
-                                <p class="subproperty">
-                                    <span class="color-0">&lt;h1&gt;<span class="color-4">Hola, Mundo!</span><span class="color-0">&lt;/h1&gt;</span>
-                                </p>
-                                <p class="subproperty">                                                
-                                    <span class="color-0">&lt;p&gt;<span class="color-4">Este es un párrafo de ejemplo.</span>&lt;/p&gt;</span>
-                                </p>
-                            </p>
-                            <p class="property">
-                                <span class="color-0">&lt;/body&gt;</span>
-                            </p>
-                            <span class="color-0">&lt;/html&gt;</span>
-                            <p class="property">
-                            </p>
-                        </code>
-                    </div>
-                </div>
-                <!--      CODE WINDOW             -->
-                <h4 class="title">1.1.1 Historia y Evolución de HTML</h4>
-                <p><strong>HTML</strong> fue creado por <strong>Tim Berners-Lee</strong> en 1991 como un medio para compartir documentos en la web. Desde entonces, ha evolucionado a través de varias versiones, cada una introduciendo nuevas características y mejoras.</p>
-                <ul>
-                    <li><strong>HTML 2.0:</strong> La primera especificación formal que incluyó formularios y otros elementos básicos.</li>
-                    <li><strong>HTML 4.01:</strong> Introdujo el soporte para CSS y características más avanzadas.</li>
-                    <li><strong>XHTML:</strong> Una versión más estricta de HTML que combinaba las reglas de HTML con la sintaxis de XML.</li>
-                    <li><strong>HTML5:</strong> La versión más reciente, que incluye nuevas etiquetas semánticas, soporte multimedia nativo (audio y video), y APIs que permiten una mayor interactividad.</li>
-                </ul>
-                <h4 class="title">1.1.2 Estructura Básica de un Documento HTML</h4>
-                <p>Cada documento <strong>HTML</strong> se organiza en secciones específicas que establecen su estructura.</p>
-                <p>La estructura mínima incluye las siguientes partes:n <strong>HTML</strong> de tres maneras principales:</p>
-                <ul>
-                    <li><span class="color-2">&lt;!DOCTYPE html&gt;</span>: Declara que este documento está escrito en HTML5.</li>
-                    <li><span class="color-2">&lt;html&gt;</span>: La raíz del documento.</li>
-                    <li><span class="color-2">&lt;head&gt;</span>: Contiene metadatos sobre la página, como el título, enlaces a hojas de estilo y scripts.</li>
-                    <li><span class="color-2">&lt;body&gt;</span>: Contiene todo el contenido visible de la página, como texto, imágenes y enlaces.</li>
-                </ul>
-            </div>                        
+        <section>            
+            <div class="line"></div>
+            <h2 class="title-center">Índice</h2>
+            <div class="indice">
+                <a href="./01-Introduccion-html-css.html"><h3 class="title">1. Introducción a HTML y CSS</h3></a>
+                <a href="./01-Introduccion-html-css.html"><p class="level-2">¿Qué es HTML?</p></a>
+                <p class="level-3">Historia y Evolución de HTML</p>
+                <p class="level-3">Estructura Básica de un Documento HTML</p>
+                <a href="./01-que-es-css.html"><p class="level-2">¿Qué es CSS?</p></a>
+                <p class="level-3">Historia y Evolución de CSS</p>
+                <p class="level-3">Cómo CSS Interactúa con HTML</p>
+                <div class="line"></div>
+                <h3 class="title">2. Fundamentos de HTML</h3>
+                <p class="level-2">Estructura de un Documento HTML</p>
+                <p class="level-3">Elementos y Etiquetas HTML</p>
+                <p class="level-3">Atributos HTML</p>
+                <p class="level-2">Trabajo con Texto</p>
+                <p class="level-3">Elementos y Etiquetas HTML</p>
+                <p class="level-3">Encabezados</p>
+                <p class="level-3">Párrafos</p>
+                <p class="level-3">Encabezados</p>
+                <p class="level-3">Énfasis y Énfasis Fuerte</p>
+                <p class="level-3">Listas (Ordenadas y Desordenadas)</p>
+                <p class="level-2">Enlaces y Navegación</p>
+                <p class="level-3">Enlaces Internos y Externos</p>
+                <p class="level-3">Navegación entre Páginas</p>     
+                <p class="level-2">Imágenes y Multimedia</p>
+                <p class="level-3">Insertar Imágenes</p>
+                <p class="level-3">Insertar Videos y Audio</p>   
+                <p class="level-2">Formularios HTML</p>  
+                <p class="level-3">Campos de Entrada</p>   
+                <p class="level-3">Botones y Envío de Formularios</p>   
+                <p class="level-2">Tablas y Estructuras de Datos</p>  
+                <p class="level-3">Creación de Tablas</p>   
+                <p class="level-3">Atributos de Tablas (Colspan, Rowspan)</p>   
+                <p class="level-3">Accesibilidad en Tablas</p>   
+                <div class="line"></div>
+                <h3 class="title">3. Fundamentos de CSS</h3>                          
+                <p class="level-2">Introducción a CSS</p>  
+                <p class="level-3">Sintaxis CSS Básica</p>   
+                <p class="level-3">Selectores y Combinadores</p>   
+                <p class="level-2">Propiedades CSS Comunes</p>  
+                <p class="level-3">Color y Fondos</p>   
+                <p class="level-3">Tipografía</p>   
+                <p class="level-3">Espaciado (Margin y Padding)</p>   
+                <p class="level-3">Bordes y Sombras</p>   
+                <p class="level-2">Modelo de Caja (Box Model)</p>  
+                <p class="level-3">Comprendiendo el Modelo de Caja</p>   
+                <p class="level-3">Manipulación del Modelo de Caja</p>   
+                <p class="level-2">Diseño Responsivo</p>  
+                <p class="level-3">Uso de Media Queries</p>   
+                <p class="level-3">Diseño Flexible con Flexbox</p>   
+                <p class="level-3">Grid Layout</p>   
+                <p class="level-2">CSS Avanzado</p>  
+                <p class="level-3">Pseudo-clases y Pseudo-elementos</p>   
+                <p class="level-3">Animaciones y Transiciones</p>   
+                <p class="level-3">Variables CSS</p>  
+                <div class="line"></div>
+                <h3 class="title">4. Estructuración de Proyectos Web</h3>
+                <p class="level-2">Organización de Archivos y Carpetas</p>  
+                <p class="level-3">Convenciones de Nombres de Archivos</p>  
+                <p class="level-3">Uso de Archivos CSS Externos</p>  
+                <p class="level-2">Herramientas de Desarrollo</p>  
+                <p class="level-3">Editores de Código Recomendados</p>  
+                <p class="level-3">Uso de DevTools en el Navegador</p>  
+                <p class="level-2">Buenas Prácticas de Código</p>  
+                <p class="level-3">Escribir HTML Semántico</p>  
+                <p class="level-3">Comentarios y Documentación en CSS</p>  
+                <div class="line"></div>
+                <h3 class="title">5. Diseño y Estilo Avanzado</h3>
+                <p class="level-2">Fuentes Web y Tipografía Avanzada</p>
+                <p class="level-3">Uso de Fuentes Externas (Google Fonts)</p>  
+                <p class="level-3">Técnicas de Tipografía Web</p>  
+                <p class="level-2">Estilos Avanzados de Fondo</p>
+                <p class="level-3">Gradientes</p>  
+                <p class="level-3">Imágenes de Fondo</p>  
+                <p class="level-2">Diseño de Interfaces con CSS Grid</p>
+                <p class="level-3">Conceptos Básicos de Grid</p>  
+                <p class="level-3">Layouts Complejos con Grid</p>  
+                <p class="level-2">Efectos Visuales</p>                
+                <p class="level-3">Sombras Avanzadas</p>  
+                <p class="level-3">Efectos de Hover y Focus</p>  
+                <div class="line"></div>
+                <h3 class="title">6. Accesibilidad Web</h3>
+                <p class="level-2">Introducción a la Accesibilidad</p>
+                <p class="level-2">Buenas Prácticas para HTML Accesible</p>     
+                <p class="level-2">Accesibilidad en Formularios</p>     
+                <p class="level-2">Herramientas y Recursos para Accesibilidad</p>     
+                <div class="line"></div>
+                <h3 class="title">7. Implementación de Proyectos</h3>
+                <p class="level-2">Creación de un Sitio Web Simple</p>
+                <p class="level-3">Maquetación de Páginas</p>  
+                <p class="level-3">Aplicación de Estilos</p>  
+                <p class="level-2">Proyecto Intermedio: Blog Personal</p>     
+                <p class="level-3">Estructura de Páginas</p>  
+                <p class="level-3">Estilos Personalizados</p>  
+                <p class="level-3">Implementación de Navegación</p>  
+                <p class="level-2">Proyecto Avanzado: Portfolio</p>     
+                <p class="level-3">Diseño Responsivo Completo</p>  
+                <p class="level-3">Uso de Animaciones y Transiciones</p>  
+                <p class="level-3">Optimización de Carga y Rendimiento</p>   
+                <div class="line"></div>
+                <h3 class="title">8. Publicación y Optimización</h3>
+                <p class="level-2">Preparación para la Publicación</p>
+                <p class="level-3">Minificación de CSS y HTML</p>  
+                <p class="level-3">Optimización de Imágenes</p>  
+                <p class="level-2">Publicación del Sitio</p>     
+                <p class="level-3">Subida a un Servidor Web</p>  
+                <p class="level-3">Uso de GitHub Pages</p>  
+                <p class="level-2">Optimización para Motores de Búsqueda (SEO)</p>     
+                <p class="level-3">Buenas Prácticas SEO en HTML</p>  
+                <p class="level-3">Uso de Metaetiquetas</p>  
+                <p class="level-3">Herramientas de Análisis SEO</p>  
+                <div class="line"></div>
+                <h3 class="title">9. Recursos Adicionales</h3>
+                <p class="level-2">Documentación y Referencias Oficiales</p>              
+                <p class="level-2">Herramientas Útiles para Desarrollo Web</p>                    
+                <p class="level-2">Comunidades y Foros de Ayuda</p>     
+                <p class="level-2">Ejercicios y Proyectos Sugeridos</p>                     
+            </div>                    
             <div class="line final"></div>                                                                                                            
         </section>
     </div>
     <!-- Footer -->
     <footer>
-        <div class="footer-nav">
-            <a href="#" class="prev">
-                <p>-</p>
-            </a>            
-            <a href="./01-que-es-css.html" class="next">
-                <p>¿Qué es CSS?</p>
-            </a>              
-        </div>        
+        <a href="https://github.com/xj4v1x/Frontend_ES" target="_self">GitHub del Proyecto</a>
     </footer>
 </body>
 </html>
+

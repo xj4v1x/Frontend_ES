@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/code-window.css" rel="stylesheet">
+    <link href="./styles/html-css.css" rel="stylesheet">
+    <title>Guía de estudio HTML y CSS</title>
+</head>
+<body>    
+    <!-- Header -->
+    <header>        
+        <div>
+            <img src="./assets/img/logo_w.png" width="90px" id="logo">
+            <div class="mask"></div>
+        </div>
+    </header>
+    <div class="main-body">
+        <!-- Main Section -->
+        <div>
+            <h1 class="title">Fundamentos de CSS</h1>
+        </div>
+        <div class="line"></div>
+        <div>
+            <section>               
+                <div>
+                    <h2 class="title">3. Fundamentos de CSS</h2>
+                    <p><strong>CSS</strong> <em>(Cascading Style Sheets)</em> es un lenguaje de hojas de estilo utilizado para describir cómo se presenta el contenido de un documento <strong>HTML</strong>.</p>
+                    <div>
+                        <p>Los fundamentos de <strong>CSS</strong> incluyen la comprensión de su sintaxis, selectores, propiedades y cómo aplicar estilos a los elementos <strong>HTML</strong> para mejorar la apariencia visual de las páginas web.</p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="title">3.1 Introducción a CSS</h3>
+                    <p><strong>CSS</strong> permite que los desarrolladores definan la apariencia visual de un sitio web separando la estructura del contenido (<strong>HTML</strong>) del diseño.</p>
+                    <p>Esto facilita la modificación del diseño sin tener que cambiar el contenido de la página.</p>
+                </div>
+                <div>                    
+                    <p class="pre-ejemplo">Ejemplo de Aplicación de CSS:</p>                                        
+                    <!--      CODE WINDOW             -->
+                <div class="code-editor">
+                    <div class="code-header"><span class="code-title">HTML</span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"><path stroke-linecap="round" stroke-width="2" stroke="#f5f5f5" d="M6 6L18 18"></path><path stroke-linecap="round" stroke-width="2" stroke="#f5f5f5" d="M18 6L6 18"></path></g></svg></div>
+                    <div class="editor-content">
+                        <code class="code">
+                            <p><span class="color-0">&lt;!DOCTYPE <span class="color-2"> html&gt;</span></span></p>
+                            <p class="indent-1">
+                                <span class="color-0">&lt;html </span><span class="color-3">lang</span><span class="color-4"> = </span><span class="color-1">"es"</span><span class="color-0">&gt;</span>
+                            </p>
+                            <span class="indent-2 color-0">&lt;head&gt;</span>
+                            <p class="indent-2">
+                                <span class="color-0 indent-1">&lt;meta </span><span class="color-3">charset</span><span class="color-4"> = </span><span class="color-1">"UTF-8"</span><span class="color-0">&gt;</span>
+                            </p>
+                            <p class="indent-2">
+                                <span class="color-0 indent-1">&lt;meta </span><span class="color-3">name</span><span class="color-4"> = </span><span class="color-1">"viewport"</span><span class="color-3"> content</span><span class="color-4"> = </span><span class="color-1">"width=device-width, initial-scale=1.0"</span><span class="color-0">&gt;</span>
+                            </p>
+                            <p class="indent-2">
+                                <span class="indent-1 color-0">&lt;title&gt;</span><span class="color-4">Mi Página con CSS<span class="color-0">&lt;/title&gt;</span>                           
+                            </p>
+                            <p class="indent-2">
+                                <span class="indent-1 color-0">&lt;style&gt;</span>
+                                <div>
+                                    <p class="indent-2">
+                                        <span class="indent-2 color-0">body<span class="color-2"> &lbrace;</span>
+                                    </p>
+                                    <p class="indent-2">
+                                        <span class="indent-1 ">
+                                            <span class="indent-2 property color-0">background-color:<span class="color-3"> #f0f0f0</span><span class="color-0">;</span>
+                                        </span>
+                                    </p>
+                                    <p class="indent-2">
+                                        <span class="indent-1 ">
+                                            <span class="indent-2 property color-0">font-family:<span class="color-3"> Arial, sans-serif</span><span class="color-0">;</span>
+                                        </span>
+                                    </p>
+                                    <p class="indent-2">
+                                        <span class="indent-1 ">
+                                            <span class="indent-1 color-2">&rbrace;</span>
+                                        </span>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="indent-2">
+                                        <span class="indent-2 color-0">h1<span class="color-2"> &lbrace;</span><span class="color-0">color:<span class="color-3"> #333333</span><span class="color-0">;</span><span class="color-2">&rbrace;</span>
+                                    </p>                                                                        
+                                </div>
+                                <div>
+                                    <p class="indent-2">
+                                        <span class="indent-2 color-0">p<span class="color-2"> &lbrace;</span><span class="color-0">font-size:<span class="color-3"> 16px</span><span class="color-0">;</span>
+                                    </p>                                    
+                                    <p class="indent-2">
+                                        <span class="indent-2">
+                                            <span class="indent-2 color-0">color:<span class="color-3"> #666666</span><span class="color-0">;</span><span class="color-2">&rbrace;</span>
+                                        </span>
+                                    </p>                                                                        
+                                </div>
+                            </p>                            
+                            <p class="indent-2">
+                                <span class="indent-1 color-0">&lt;/style&gt;</span>
+                            </p>
+                            <p class="indent-2">
+                                <span class="color-0">&lt;/head&gt;</span>
+                            </p>
+                            <p class="indent-1">
+                                <span class="color-0">&lt;body&gt;</span>
+                            </p>
+                            <p class="indent-1">
+                                <p class="indent-2">
+                                    <span class="color-0">&lt;h1&gt;<span class="color-4">Bienvenido a Mi Página</span><span class="color-0">&lt;/h1&gt;</span>
+                                </p>
+                                <p class="indent-2">                                                
+                                    <span class="color-0">&lt;p&gt;<span class="color-4">Este es un ejemplo de cómo se aplican estilos CSS.</span>&lt;/p&gt;</span>
+                                </p>
+                            </p>
+                            <p class="indent-1">
+                                <span class="color-0">&lt;/body&gt;</span>
+                            </p>
+                            <span class="color-0">&lt;/html&gt;</span>
+                            <p class="indent-1">
+                            </p>
+                        </code>
+                    </div>
+                </div>
+                <!--      CODE WINDOW             -->                                                                
+                </div>
+                <div>
+                    <h4 class="title">3.1.1 Sintaxis CSS Básica</h4>
+                    <p>La sintaxis de <strong>CSS</strong> consiste en <span class="color-0">selectores</span> que apuntan a los elementos <strong>HTML</strong> y en <span class="color-2">reglas</span> que definen los estilos que se aplicarán a esos elementos.</p>
+                </div>                                                    
+                <p>Cada regla <strong>CSS</strong> tiene dos partes:</p>
+                <div>
+                    <p><strong>Selector :</strong> Identifica el elemento <strong>HTML</strong> al que se le aplicará el estilo.</p>
+                </div>
+                <p><strong>Bloque de declaración :</strong> Contiene las propiedades <strong>CSS</strong> y sus valores.</p>
+                <!--      CODE WINDOW             -->
+                <div>
+                    <p class="pre-ejemplo">Ejemplo de Sintaxis:</p>
+                    <div class="code-editor">
+                        <div class="code-header"><span class="code-title">HTML</span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"><path stroke-linecap="round" stroke-width="2" stroke="#f5f5f5" d="M6 6L18 18"></path><path stroke-linecap="round" stroke-width="2" stroke="#f5f5f5" d="M18 6L6 18"></path></g></svg></div>
+                        <div class="editor-content">
+                            <code class="code">
+                                <p><span class="color-0">h1</span><span class="color-2"> &lbrace;</span></p>
+                                <p class="property"><span class="color-3">color:</span><span class="color-1"> blue</span><span class="color-0">;</span></p>
+                                <p class="property"><span class="color-3">font-size:</span><span class="color-1"> 24px</span><span class="color-0">;</span></p>
+                                <p><span class="color-2"> &rbrace;</span></p>
+                            </code>
+                        </div>
+                    </div>
+                    <!--      CODE WINDOW             -->
+                    <div>
+                        <p>En este ejemplo, el selector <span class="color-0">h1</span> se refiere a los elementos <span class="color-0">h1</span> en el <strong>HTML</strong>, y las declaraciones dentro del bloque <span class="color-2">&lbrace; &rbrace;</span> definen que el texto de los encabezados será de color <span class="color-1">azul</span> y tamaño <span class="color-1">24 píxeles</span>.</p>
+                    </div>
+                </div> 
+                <div class="line final"></div>
+            </section>
+        </div>                
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-nav">
+            <a href="./02-3-enlaces-navegacion.html">
+                <p>Enlaces y Navegación</p>
+            </a>            
+            <a href="./03-2-propiedades-css.html" class="next">
+                <p>Propiedades CSS comunes</p>
+            </a>            
+        </div>
+       
+    </footer>
+</body>
+</html>
+

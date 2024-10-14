@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/html-css.css" rel="stylesheet">
+    <link href="./styles/code-window.css" rel="stylesheet">
+    <title>Guía de estudio HTML y CSS</title>
+</head>
+<body>    
+    <!-- Header -->
+    <header>        
+        <div>
+            <img src="./assets/img/logo_w.png" width="90px" id="logo">
+            <div class="mask"></div>
+        </div>
+    </header>
+    <div class="main-body">
+        <!-- Main Section -->
+        <div>
+            <h1 class="title">Introducción a <strong>HTML</strong> y <strong>CSS</strong></h1>
+        </div>
+        <div class="line"></div>
+        <div>
+            <section>
+                <article>
+                    <div>
+                        <h2 class="title">1. Introducción</h2>
+                        <p><strong>HTML</strong> <em>(HyperText Markup Language)</em> y <strong>CSS</strong> <em>(Cascading Style Sheets)</em> son los dos lenguajes fundamentales para el desarrollo web.</p>                    
+                        <p><strong>HTML</strong> es el lenguaje de marcado utilizado para estructurar el contenido de las páginas web, mientras que <strong>CSS</strong> se encarga de su apariencia visual.</p>
+                        <p>Ambos trabajan juntos para crear sitios web atractivos y funcionales.</p>                                                
+                    </div>
+                    <div class="line"></div>
+                    <div>
+                        <h3 class="title">1.1 ¿Qué es HTML?</h3>
+                        <p><strong>HTML</strong> es el lenguaje estándar utilizado para crear páginas web. Utiliza etiquetas para organizar el contenido y definir la estructura de una página. </p>
+                        <p>Estas etiquetas son elementos que delimitan el inicio y el fin de cada parte del contenido.</p>
+                        <p>Ejemplo:</p>
+                        <!--      CODE WINDOW             -->
+                        <div class="code-editor">
+                            <div class="code-header"><span class="code-title">HTML</span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"><path stroke-linecap="round" stroke-width="2" stroke="#f5f5f5" d="M6 6L18 18"></path><path stroke-linecap="round" stroke-width="2" stroke="#f5f5f5" d="M18 6L6 18"></path></g></svg></div>
+                            <div class="editor-content">
+                                <code class="code">
+                                    <p><span class="color-0">&lt;html&gt;</span></p>
+                                    <p class="indent-1"><span class="color-0">&lt;head&gt;</span></p>
+                                    <p class="indent-2"><span class="color-2">&lt;title&gt;</span><span class="color-3">Mi Página Web</span><span class="color-2">&lt;/title&gt;</span>
+                                    <p class="indent-1"><span class="color-0">&lt;/head&gt;</span></p>
+                                    <p class="indent-1"><span class="color-0">&lt;body&gt;</span></p>
+                                    <p class="indent-2"><span class="color-2">&lt;h1&gt;</span><span class="color-3">Bienvenido a Mi Sitio</span><span class="color-2">&lt;/h1&gt;</span>
+                                    <p class="indent-2"><span class="color-2">&lt;p&gt;</span><span class="color-3">Este es un párrafo en HTML.</span><span class="color-2">&lt;/p&gt;</span>
+                                    <p class="indent-1"><span class="color-0">&lt;/body&gt;</span></p>
+                                    <p><span class="color-0">&lt;/html&gt;</span></p>                                
+                                </code>
+                            </div>
+                        </div>
+                        <!--      CODE WINDOW             -->
+                    </div>
+                    <div class="line"></div>
+                    <div>
+                        <h4 class="title">1.1.1 Historia y evolución de HTML</h4>
+                        <p><strong>HTML</strong> fue desarrollado por <strong>Tim Berners-Lee</strong> en 1991 como un lenguaje sencillo para compartir documentos en la <strong>World Wide Web</strong>.</p>
+                        <p>Desde entonces ha evolucionado a través de varias versiones, incluyendo <strong>HTML 4</strong>, <strong>XHTML</strong> y la actual <strong>HTML5</strong>, que incluye nuevas etiquetas y mejoras de accesibilidad.</p>                    
+                    </div>
+                    <div class="line"></div>
+                    <div>
+                        <h4 class="title">1.1.2 Estructura Básica de un Documento HTML</h4>
+                        <p>Un documento <strong>HTML</strong> tiene una estructura específica que incluye la declaración del tipo de documento <span class="color-0">(DOCTYPE)</span>, el encabezado para metadatos y el cuerpo del contenido.</p>                    
+                    </div>
+                    <!--      CODE WINDOW             -->
+                    <div class="code-editor">
+                        <div class="code-header"><span class="code-title">HTML</span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"><path stroke-linecap="round" stroke-width="2" stroke="#f5f5f5" d="M6 6L18 18"></path><path stroke-linecap="round" stroke-width="2" stroke="#f5f5f5" d="M18 6L6 18"></path></g></svg></div>
+                        <div class="editor-content">
+                            <code class="code">
+                                <p><span class="color-0">&lt;html </span><span class="color-1">lang</span> = <span class="color-3">"es"</span><span class="color-0">&gt;</span></p>
+                                <p class="indent-1"><span class="color-0">&lt;head&gt;</span></p>
+                                <p class="indent-2"><span class="color-0">&lt;meta</span><span class="color-1"> charset</span> = <span class="color-3">"UTF-8"</span><span class="color-0">&gt;</span></p>
+                                <p class="indent-2"><span class="color-0">&lt;meta</span><span class="color-1"> name</span> = <span class="color-3">"viewport"</span><span class="color-1"> content</span> = <span class="color-3">"width=device-width, initial-scale=1.0"</span><span class="color-0">&gt;</span></p>
+                                <p class="indent-2"><span class="color-2">&lt;title&gt;</span><span class="color-3">Mi Sitio  Web</span><span class="color-2">&lt;/title&gt;</span>
+                                <p class="indent-1"><span class="color-0">&lt;/head&gt;</span></p>
+                                <p class="indent-1"><span class="color-0">&lt;body&gt;</span></p>
+                                <p class="indent-2"><span class="color-2">&lt;h1&gt;</span><span class="color-3">Título Principal</span><span class="color-2">&lt;/h1&gt;</span>
+                                <p class="indent-2"><span class="color-2">&lt;p&gt;</span><span class="color-3">Contenido de la página.</span><span class="color-2">&lt;/p&gt;</span>
+                                <p class="indent-1"><span class="color-0">&lt;/body&gt;</span></p>
+                                <p><span class="color-0">&lt;/html&gt;</span></p>                                
+                            </code>
+                        </div>
+                    </div>
+                    <!--      CODE WINDOW             -->                
+                <div class="line final"></div>
+            </section>
+        </div>                
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-nav">
+            <a href="./index.html" class="prev">
+                <p>Inicio</p>
+            </a>             
+            <a href="./01-que-es-css.html" class="next">
+                <p>¿Qué es CSS?</p>
+            </a>            
+        </div>
+    </footer>
+</body>
+</html>
+

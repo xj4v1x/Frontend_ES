@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/code-window.css" rel="stylesheet">
+    <link href="./styles/html-css.css" rel="stylesheet">
+    <title>Guía de estudio HTML y CSS</title>
+</head>
+<body>    
+    <!-- Header -->
+    <header>        
+        <div>
+            <img src="./assets/img/logo_w.png" width="90px" id="logo">
+            <div class="mask"></div>
+        </div>
+    </header>
+    <div class="main-body">
+        <!-- Main Section -->
+        <div>
+            <h1 class="title">Fundamentos de <strong>HTML</strong></h1>
+        </div>
+        <div class="line"></div>
+        <div>
+            <section>
+                <div>
+                    <h2 class="title">2. Fundamentos de HTML</h2>
+                    <p><strong>HTML</strong> es el lenguaje de marcado utilizado para crear la estructura básica de las páginas web.</p>
+                    <p>Los fundamentos de <strong>HTML</strong> incluyen la comprensión de cómo está organizada la información en un documento <strong>HTML</strong>, las <span class="color-2"> etiquetas</span> más comunes y cómo utilizarlas para crear contenido legible y bien estructurado.</p></p>
+                </div>
+                <div>
+                    <h3 class="title">2.1 Estructura de un Documento HTML</h3>
+                    <p>Todo documento <strong>HTML</strong> sigue una estructura específica que es interpretada por los navegadores para mostrar el contenido correctamente.</p>
+                    <p>A continuación, se describe la estructura básica de un documento <strong>HTML</strong>:</p>
+                    <ul>
+                        <li><span class="color-0">&lt;!DOCTYPE html&gt;</span> : Informa al navegador que está utilizando <strong>HTML5</strong>.</li>
+                        <li><span class="color-0">&lt;html&gt;</span> : Es el elemento raíz que contiene todo el contenido de la página.</li>
+                        <li><span class="color-0">&lt;head&gt;</span> : Contiene metadatos sobre el documento, como el título, enlaces a hojas de estilo y otras configuraciones que no son visibles directamente en la página.</li>
+                        <li><span class="color-0">&lt;body&gt;</span> : Contiene todo el contenido visible de la página, como texto, imágenes y enlaces.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="title">Ejemplo de Estructura Básica de un Documento HTML:</h4>
+                    <!--      CODE WINDOW             -->
+                    <div class="code-editor">
+                        <div class="code-header"><span class="code-title">HTML</span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"><path stroke-linecap="round" stroke-width="2" stroke="#f5f5f5" d="M6 6L18 18"></path><path stroke-linecap="round" stroke-width="2" stroke="#f5f5f5" d="M18 6L6 18"></path></g></svg></div>
+                        <div class="editor-content">
+                            <code class="code">
+                                <p><span class="color-0">&lt;!DOCTYPE html&gt;</span></p>
+                                <p><span class="color-0 indent-1">&lt;html </span><span class="color-1">lang</span> = <span class="color-3">"es"</span><span class="color-0">&gt;</span></p>
+                                <p class="indent-2"><span class="color-0">&lt;head&gt;</span></p>
+                                <p class="indent-2"><span class="color-0 indent-1">&lt;meta</span><span class="color-3"> charset</span> = <span class="color-1">"UTF-8"</span><span class="color-0">&gt;</span></p>
+                                <p class="indent-2"><span class="color-0 indent-1">&lt;meta</span><span class="color-3"> name</span> = <span class="color-1">"viewport"</span><span class="color-3"> content</span> = <span class="color-1">"width=device-width, initial-scale=1.0"</span><span class="color-0">&gt;</span></p>
+                                <p class="indent-2"><span class="color-2 indent-1">&lt;title&gt;</span><span class="color-1">Mi Sitio  Web</span><span class="color-2">&lt;/title&gt;</span>
+                                <p class="indent-2"><span class="color-0">&lt;/head&gt;</span></p>
+                                <p class="indent-2"><span class="color-0">&lt;body&gt;</span></p>
+                                <p class="indent-2"><span class="color-2 indent-1">&lt;h1&gt;</span><span class="color-1">Título Principal</span><span class="color-2">&lt;/h1&gt;</span>
+                                <p class="indent-2"><span class="color-2 indent-1">&lt;p&gt;</span><span class="color-1">Contenido de la página.</span><span class="color-2">&lt;/p&gt;</span>
+                                <p class="indent-2"><span class="color-0">&lt;/body&gt;</span></p>
+                                <p><span class="color-0">&lt;/html&gt;</span></p>                                                          
+                            </code>
+                        </div>
+                    </div>
+                    <!--      CODE WINDOW             -->
+                </div>
+                <div class="line"></div>
+                <div>
+                    <h4 class="title">2.1.1 Elementos y Etiquetas HTML</h4>
+                    <p><strong>HTML</strong> está compuesto por <b>elementos</b> que se definen mediante <span class="color-2">etiquetas</span>.</p>
+                    <p>Las <span class="color-2">etiquetas</span> pueden definir bloques de contenido como títulos, párrafos, enlaces, imágenes, etc.</p>
+                </div>
+                <div>
+                    <p>Las <span class="color-2">etiquetas</span> más comunes incluyen:</p>
+                    <ul>
+                        <li><p><span class="color-2">&lt;h1&gt;</span> a <span class="color-2">&lt;h6&gt;</span>: Encabezados que representan diferentes niveles de títulos.</p>
+                            <p><span class="color-2">&lt;h1&gt;</span> es el nivel más importante y <span class="color-2">&lt;h6&gt;</span> el menos importante.</p>
+                        </li>
+                        <li><p><span class="color-2">&lt;p&gt;</span>: Define un párrafo de texto.</p></li>
+                        <li><p><span class="color-2">&lt;a&gt;</span>: Define un enlace.</p></li>
+                        <li><p><span class="color-2">&lt;img&gt;</span>: Inserta una imagen en la página.</p></li>
+                    </ul>                    
+                </div>
+                <div>
+                    <!--      CODE WINDOW             -->
+                    <div class="code-editor">
+                        <div class="code-header"><span class="code-title">HTML</span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"><path stroke-linecap="round" stroke-width="2" stroke="#f5f5f5" d="M6 6L18 18"></path><path stroke-linecap="round" stroke-width="2" stroke="#f5f5f5" d="M18 6L6 18"></path></g></svg></div>
+                        <div class="editor-content">
+                            <code class="code">                                
+                                <p class=""><span class="color-0">&lt;body&gt;</span></p>
+                                <p class="indent-1"><span class="color-2 indent-1">&lt;h1&gt;</span><span class="color-1">Título Principal</span><span class="color-2">&lt;/h1&gt;</span>
+                                <p class="indent-1"><span class="color-2 indent-1">&lt;h2&gt;</span><span class="color-1">Subtítulo</span><span class="color-2">&lt;/h2&gt;</span>
+                                <p class="indent-1"><span class="color-2 indent-1">&lt;p&gt;</span><span class="color-1">Este es un párrafo.</span><span class="color-2">&lt;/p&gt;</span>
+                                <p class="indent-1"><span class="color-2 indent-1">&lt;a</span><span class="color-3"> href</span> = <span class="color-1">"https://www.ejemplo.com"</span><span class="color-0">&gt;</span>Visita nuestro sitio<span class="color-2">&lt;/a&gt;</span>
+                                <p class="indent-1"><span class="color-2 indent-1">&lt;img</span><span class="color-3"> src</span> = <span class="color-1">"imagen.jpg"</span><span class="color-3"> alt</span>=<span class="color-1">"Descripción de la imagen"</span><span class="color-2">&gt;</span>
+                                <p class=""><span class="color-0">&lt;/body&gt;</span></p>
+                            </code>
+                        </div>
+                    </div>
+                    <!--      CODE WINDOW             -->
+                </div>                    
+                <div class="line"></div>
+                <div>
+                    <h4 class="title">2.1.2 Atributos HTML</h4>                                                    
+                    <p>Las <span class="color-2">etiquetas</span> <strong>HTML</strong>pueden tener <span class="color-3">atributos</span> que proporcionan información adicional sobre el elemento.</p>
+                    <p>Los <span class="color-3">atributos</span> se colocan dentro de la <span class="color-2">etiqueta</span> de apertura y siempre tienen un valor asignado.</p>
+                    <p>A continuación, algunos <span class="color-3">atributos</span> comunes:</p>
+                    <div>
+                        <ul>
+                            <li><span class="color-3">href</span> : Se utiliza en los enlaces <span class="color-2">&lt;a&gt;</span> para especificar la <span class="color-1">URL</span> a la que apunta el enlace.</li>
+                            <li><span class="color-3">src</span> : Especifica la ubicación de una imagen en la etiqueta <span class="color-2">&lt;img&gt;</span>.</li>
+                            <li><span class="color-3">alt</span> : Proporciona texto alternativo para las imágenes, útil para accesibilidad y SEO.</li>
+                            <li><span class="color-3">id</span> y <span class="color-3">class</span> : Se utilizan para identificar elementos individualmente (<span class="color-3">id</span>) o agruparlos en clases (<span class="color-3">class</span>) para aplicarles estilos <strong>CSS</strong> o interactuar con <strong>JavaScript</strong>.</li>
+                        </ul>
+                    </div>                    
+                </div>                 
+                <div class="line final"></div>
+            </section>
+        </div>                
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-nav">
+            <a href="./01-que-es-css.html">
+                <p>¿Qué es CSS?</p>
+            </a>            
+            <a href="./02-2-trabajo-con-texto.html" class="next">
+                <p>Trabajo con texto</p>
+            </a>            
+        </div>       
+    </footer>
+</body>
+</html>
+
