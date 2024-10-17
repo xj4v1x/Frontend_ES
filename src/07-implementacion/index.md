@@ -195,7 +195,7 @@ Optimiza el portafolio minimizando archivos **CSS** y **JavaScript**, utilizando
 ---
 
 <div class="footer-nav">
-    <a href="../06-accesibilidad/">6. Accesibilidad Web</a>
+    <a href="../06-accesibilidad/index.md">6. Accesibilidad Web</a>
     <!-- <a href="#" class="prev-link" class="tachado">Anterior</a> -->
-    <a href="../08-publicacion/" class="next-link">8. Publicación y Optimización</a>    
+    <a href="../08-publicacion/index.md">8. Publicación y Optimización</a>    
 </div>
