@@ -182,7 +182,7 @@ Utiliza herramientas como ***Google Lighthouse*** o ***PageSpeed Insights*** par
 ---
 
 <div class="footer-nav">
-    <a href="../07-implementacion/">7. Implementación de Proyectos</a>
+    <a href="../07-implementacion/index.md">7. Implementación de Proyectos</a>
     <!-- <a href="#" class="prev-link" class="tachado">Anterior</a> -->
-    <a href="../09-recursos-adicionales/" class="next-link">9. Recursos Adicionales</a>    
+    <a href="../09-recursos-adicionales/index.md">9. Recursos Adicionales</a>    
 </div>
