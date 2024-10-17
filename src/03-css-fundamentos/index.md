@@ -174,7 +174,7 @@ body: {
 ---
 
 <div class="footer-nav">
-    <a href="../html-fundamentos/">2. Fundamentos de HTML</a>
+    <a href="../02-html-fundamentos/">2. Fundamentos de HTML</a>
     <!-- <a href="#" class="prev-link" class="tachado">Anterior</a> -->
-    <a href="../estructuracion/" class="next-link">4. Estructuración de Proyectos Web</a>    
+    <a href="../04-estructuracion/" class="next-link">4. Estructuración de Proyectos Web</a>    
 </div>

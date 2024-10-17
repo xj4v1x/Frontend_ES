@@ -167,7 +167,7 @@ Las pautas WCAG se clasifican en tres niveles de conformidad:
 ---
 
 <div class="footer-nav">
-    <a href="../estilo-avanzado/">5. Diseño y Estilo Avanzado</a>
+    <a href="../05-estilo-avanzado/">5. Diseño y Estilo Avanzado</a>
     <!-- <a href="#" class="prev-link" class="tachado">Anterior</a> -->
-    <a href="../implementacion/" class="next-link">7. Implementación de Proyectos</a>    
+    <a href="../07-implementacion/" class="next-link">7. Implementación de Proyectos</a>    
 </div>

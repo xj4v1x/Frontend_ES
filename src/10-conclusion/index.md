@@ -68,7 +68,7 @@ Nunca dejes de experimentar y de buscar maneras de mejorar, ya que la práctica 
 ---
 
 <div class="footer-nav">
-    <a href="../recursos-adicionales/">9. Recursos Adicionales</a>
+    <a href="../09-recursos-adicionales/">9. Recursos Adicionales</a>
     <!-- <a href="#" class="prev-link" class="tachado">Anterior</a> -->
     
 </div>
