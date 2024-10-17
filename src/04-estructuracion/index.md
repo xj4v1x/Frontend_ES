@@ -134,7 +134,7 @@ Los comentarios se utilizan para explicar partes del código o separar secciones
 ---
 
 <div class="footer-nav">
-    <a href="../03-css-fundamentos/">3. Fundamentos de CSS</a>
+    <a href="../03-css-fundamentos/index.md">3. Fundamentos de CSS</a>
     <!-- <a href="#" class="prev-link" class="tachado">Anterior</a> -->
-    <a href="../05-estilo-avanzado/" class="next-link">5. Diseño y Estilo Avanzado</a>    
+    <a href="../05-estilo-avanzado/index.md">5. Diseño y Estilo Avanzado</a>    
 </div>
