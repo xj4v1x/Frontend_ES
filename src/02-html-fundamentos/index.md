@@ -159,7 +159,7 @@ La etiqueta ```<img>``` se utiliza para insertar imágenes. Algunos atributos im
 ---
 
 <div class="footer-nav">
-    <a href="../01-html-css-guide/">1. Introducción a HTML y CSS</a>
+    <a href="../01-html-css-guide/index.md">1. Introducción a HTML y CSS</a>
     <!-- <a href="#" class="prev-link" class="tachado">Anterior</a> -->
-    <a href="../03-css-fundamentos/" class="next-link">3. Fundamentos de CSS</a>    
+    <a href="../03-css-fundamentos/index.md">3. Fundamentos de CSS</a>    
 </div>
