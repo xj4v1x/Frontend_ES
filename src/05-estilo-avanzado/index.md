@@ -157,7 +157,7 @@ Los efectos de hover y focus se aplican cuando el usuario pasa el cursor sobre u
 ---
 
 <div class="footer-nav">
-    <a href="../04-estructuracion/">4. Estructuración de Proyectos Web</a>
+    <a href="../04-estructuracion/index.md">4. Estructuración de Proyectos Web</a>
     <!-- <a href="#" class="prev-link" class="tachado">Anterior</a> -->
-    <a href="../06-accesibilidad/" class="next-link">6. Accesibilidad Web</a>    
+    <a href="../06-accesibilidad/index.md">6. Accesibilidad Web</a>    
 </div>
