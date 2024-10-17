@@ -176,7 +176,7 @@ Aquí algunos ejemplos de proyectos prácticos para fortalecer tus habilidades e
 ---
 
 <div class="footer-nav">
-    <a href="../08-publicacion/">8. Publicación y Optimización</a>
+    <a href="../08-publicacion/index.md">8. Publicación y Optimización</a>
     <!-- <a href="#" class="prev-link" class="tachado">Anterior</a> -->
-    <a href="../10-conclusion/>10. Conclusión y Próximos Pasos</a>
+    <a href="../10-conclusion/index.md">10. Conclusión y Próximos Pasos</a>
 </div>
