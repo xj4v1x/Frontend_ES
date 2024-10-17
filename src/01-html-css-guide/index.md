@@ -59,3 +59,6 @@ Un documento **HTML** tiene una estructura espec√≠fica que incluye la declaraci√
 </html>
 ```
 
+<div class="footer-nav">    
+    <a href="../02-html-fundamentos/index.md">2. Fundamentos de HTML</a>    
+</div>
